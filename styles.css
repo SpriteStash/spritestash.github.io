@@ -6,7 +6,8 @@
   --panel: #0d2838;
   --panel-strong: #12384b;
   --line: rgba(183, 221, 232, 0.18);
-  --accent: #ff4d63;
+  --accent: #c4142f;
+  --accent-dark: #7e0b1c;
   --accent-light: #ff9c72;
   --cyan: #7ee8e3;
   --max: 1180px;
@@ -87,9 +88,9 @@ h3 { font-size: clamp(1.8rem, 3vw, 2.8rem); }
   padding: .9rem 1.2rem;
   text-decoration: none;
   font-weight: 800;
-  box-shadow: 7px 7px 0 var(--accent-light);
+  box-shadow: 7px 7px 0 var(--accent-dark);
 }
-.button:hover, .button:focus-visible { transform: translate(-2px, -2px); box-shadow: 9px 9px 0 var(--accent-light); }
+.button:hover, .button:focus-visible { transform: translate(-2px, -2px); box-shadow: 9px 9px 0 var(--accent-dark); }
 .hero-mark {
   aspect-ratio: 1;
   display: grid;
