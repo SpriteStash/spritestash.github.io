@@ -1,0 +1,209 @@
+[
+  {
+    "name": "Slime",
+    "slug": "slime",
+    "files": {
+      "Idle": {
+        "animated": "assets/bestiary-pack-01/slime/idle.webp",
+        "still": "assets/bestiary-pack-01/slime/idle.jpg"
+      },
+      "Jump": {
+        "animated": "assets/bestiary-pack-01/slime/jump.webp",
+        "still": "assets/bestiary-pack-01/slime/jump.jpg"
+      },
+      "Attack": {
+        "animated": "assets/bestiary-pack-01/slime/attack.webp",
+        "still": "assets/bestiary-pack-01/slime/attack.jpg"
+      }
+    },
+    "mapping": {
+      "Idle": "Idle",
+      "Movement": "Jump",
+      "Attack": "Attack"
+    }
+  },
+  {
+    "name": "Crypt Bat",
+    "slug": "crypt-bat",
+    "files": {
+      "HoverIdle": {
+        "animated": "assets/bestiary-pack-01/crypt-bat/hoveridle.webp",
+        "still": "assets/bestiary-pack-01/crypt-bat/hoveridle.jpg"
+      },
+      "Fly": {
+        "animated": "assets/bestiary-pack-01/crypt-bat/fly.webp",
+        "still": "assets/bestiary-pack-01/crypt-bat/fly.jpg"
+      },
+      "Attack": {
+        "animated": "assets/bestiary-pack-01/crypt-bat/attack.webp",
+        "still": "assets/bestiary-pack-01/crypt-bat/attack.jpg"
+      }
+    },
+    "mapping": {
+      "Idle": "HoverIdle",
+      "Movement": "Fly",
+      "Attack": "Attack"
+    }
+  },
+  {
+    "name": "Crypt Spider",
+    "slug": "crypt-spider",
+    "files": {
+      "Idle": {
+        "animated": "assets/bestiary-pack-01/crypt-spider/idle.webp",
+        "still": "assets/bestiary-pack-01/crypt-spider/idle.jpg"
+      },
+      "Walk": {
+        "animated": "assets/bestiary-pack-01/crypt-spider/walk.webp",
+        "still": "assets/bestiary-pack-01/crypt-spider/walk.jpg"
+      },
+      "Attack": {
+        "animated": "assets/bestiary-pack-01/crypt-spider/attack.webp",
+        "still": "assets/bestiary-pack-01/crypt-spider/attack.jpg"
+      }
+    },
+    "mapping": {
+      "Idle": "Idle",
+      "Movement": "Walk",
+      "Attack": "Attack"
+    }
+  },
+  {
+    "name": "Skeleton Warrior",
+    "slug": "skeleton-warrior",
+    "files": {
+      "Idle": {
+        "animated": "assets/bestiary-pack-01/skeleton-warrior/idle.webp",
+        "still": "assets/bestiary-pack-01/skeleton-warrior/idle.jpg"
+      },
+      "Walk": {
+        "animated": "assets/bestiary-pack-01/skeleton-warrior/walk.webp",
+        "still": "assets/bestiary-pack-01/skeleton-warrior/walk.jpg"
+      },
+      "Attack": {
+        "animated": "assets/bestiary-pack-01/skeleton-warrior/attack.webp",
+        "still": "assets/bestiary-pack-01/skeleton-warrior/attack.jpg"
+      }
+    },
+    "mapping": {
+      "Idle": "Idle",
+      "Movement": "Walk",
+      "Attack": "Attack"
+    }
+  },
+  {
+    "name": "Skeleton Archer",
+    "slug": "skeleton-archer",
+    "files": {
+      "Idle": {
+        "animated": "assets/bestiary-pack-01/skeleton-archer/idle.webp",
+        "still": "assets/bestiary-pack-01/skeleton-archer/idle.jpg"
+      },
+      "Walk": {
+        "animated": "assets/bestiary-pack-01/skeleton-archer/walk.webp",
+        "still": "assets/bestiary-pack-01/skeleton-archer/walk.jpg"
+      },
+      "AttackShoot": {
+        "animated": "assets/bestiary-pack-01/skeleton-archer/attackshoot.webp",
+        "still": "assets/bestiary-pack-01/skeleton-archer/attackshoot.jpg"
+      }
+    },
+    "mapping": {
+      "Idle": "Idle",
+      "Movement": "Walk",
+      "Attack": "AttackShoot"
+    }
+  },
+  {
+    "name": "Skeleton Mage",
+    "slug": "skeleton-mage",
+    "files": {
+      "Idle": {
+        "animated": "assets/bestiary-pack-01/skeleton-mage/idle.webp",
+        "still": "assets/bestiary-pack-01/skeleton-mage/idle.jpg"
+      },
+      "Walk": {
+        "animated": "assets/bestiary-pack-01/skeleton-mage/walk.webp",
+        "still": "assets/bestiary-pack-01/skeleton-mage/walk.jpg"
+      },
+      "AttackCast": {
+        "animated": "assets/bestiary-pack-01/skeleton-mage/attackcast.webp",
+        "still": "assets/bestiary-pack-01/skeleton-mage/attackcast.jpg"
+      }
+    },
+    "mapping": {
+      "Idle": "Idle",
+      "Movement": "Walk",
+      "Attack": "AttackCast"
+    }
+  },
+  {
+    "name": "Bone Guardian",
+    "slug": "bone-guardian",
+    "files": {
+      "Idle": {
+        "animated": "assets/bestiary-pack-01/bone-guardian/idle.webp",
+        "still": "assets/bestiary-pack-01/bone-guardian/idle.jpg"
+      },
+      "Walk": {
+        "animated": "assets/bestiary-pack-01/bone-guardian/walk.webp",
+        "still": "assets/bestiary-pack-01/bone-guardian/walk.jpg"
+      },
+      "AttackSlam": {
+        "animated": "assets/bestiary-pack-01/bone-guardian/attackslam.webp",
+        "still": "assets/bestiary-pack-01/bone-guardian/attackslam.jpg"
+      }
+    },
+    "mapping": {
+      "Idle": "Idle",
+      "Movement": "Walk",
+      "Attack": "AttackSlam"
+    }
+  },
+  {
+    "name": "Zombie",
+    "slug": "zombie",
+    "files": {
+      "Idle": {
+        "animated": "assets/bestiary-pack-01/zombie/idle.webp",
+        "still": "assets/bestiary-pack-01/zombie/idle.jpg"
+      },
+      "Walk": {
+        "animated": "assets/bestiary-pack-01/zombie/walk.webp",
+        "still": "assets/bestiary-pack-01/zombie/walk.jpg"
+      },
+      "Attack": {
+        "animated": "assets/bestiary-pack-01/zombie/attack.webp",
+        "still": "assets/bestiary-pack-01/zombie/attack.jpg"
+      }
+    },
+    "mapping": {
+      "Idle": "Idle",
+      "Movement": "Walk",
+      "Attack": "Attack"
+    }
+  },
+  {
+    "name": "Ghost",
+    "slug": "ghost",
+    "files": {
+      "Idle": {
+        "animated": "assets/bestiary-pack-01/ghost/idle.webp",
+        "still": "assets/bestiary-pack-01/ghost/idle.jpg"
+      },
+      "Float": {
+        "animated": "assets/bestiary-pack-01/ghost/float.webp",
+        "still": "assets/bestiary-pack-01/ghost/float.jpg"
+      },
+      "Attack": {
+        "animated": "assets/bestiary-pack-01/ghost/attack.webp",
+        "still": "assets/bestiary-pack-01/ghost/attack.jpg"
+      }
+    },
+    "mapping": {
+      "Idle": "Idle",
+      "Movement": "Float",
+      "Attack": "Attack"
+    }
+  }
+]
