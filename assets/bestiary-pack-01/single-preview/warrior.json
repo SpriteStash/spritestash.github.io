@@ -1,0 +1,90 @@
+{
+  "width": 256,
+  "height": 256,
+  "actions": {
+    "Idle": {
+      "src": "assets/bestiary-pack-01/single-preview/warrior-idle-strip.png",
+      "durations": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "loop": true
+    },
+    "Movement": {
+      "src": "assets/bestiary-pack-01/single-preview/warrior-walk-strip.png",
+      "durations": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true
+    },
+    "Attack": {
+      "src": "assets/bestiary-pack-01/single-preview/warrior-attack-strip.png",
+      "durations": [
+        50,
+        60,
+        80,
+        90,
+        40,
+        40,
+        50,
+        70,
+        100
+      ],
+      "loop": false
+    },
+    "Hurt": {
+      "src": "assets/bestiary-pack-01/single-preview/warrior-hurt-strip.png",
+      "durations": [
+        50,
+        50,
+        60,
+        80,
+        60,
+        50,
+        100
+      ],
+      "loop": false
+    },
+    "Death": {
+      "src": "assets/bestiary-pack-01/single-preview/warrior-death-strip.png",
+      "durations": [
+        70,
+        80,
+        90,
+        100,
+        80,
+        120
+      ],
+      "loop": false
+    }
+  }
+}
