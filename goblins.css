@@ -7,4 +7,6 @@
 
 .goblins-cover-trio img[src*='goblin-raider-']{transform:scale(.8);transform-origin:center bottom}
 
-.goblins-cover-trio img[src='assets/bestiary-pack-02/goblin-warlord.webp']{transform:translateX(10%)}
+.goblins-cover-trio img[src='assets/bestiary-pack-02/goblin-warlord.webp']{transform:translateX(15%)}
+
+.goblins-page .monster-stage img[src$="cave-wolf.webp"]{object-position:center bottom}
