@@ -4,3 +4,5 @@
 .goblins-page .monster-stage img[src$="goblin-spearman.webp"]{max-width:none;flex-shrink:0}
 .goblins-cover-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5%;align-items:end}
 .goblins-cover-trio img{width:100%;height:clamp(100px,31vw,440px);object-fit:contain;object-position:center bottom;image-rendering:pixelated}
+
+.goblins-cover-trio img[src*='goblin-raider-']{transform:scale(.85);transform-origin:center bottom}
