@@ -2,3 +2,5 @@
 .goblins-page .warrior-stage canvas,.goblins-page .warrior-stage img{transform:scale(.7)}
 .goblins-page .monster-stage:has(img[src$="goblin-spearman.webp"]){overflow:visible;align-items:center;position:relative;z-index:1}
 .goblins-page .monster-stage img[src$="goblin-spearman.webp"]{max-width:none;flex-shrink:0}
+.goblins-cover-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5%;align-items:end}
+.goblins-cover-trio img{width:100%;height:clamp(100px,31vw,440px);object-fit:contain;object-position:center bottom;image-rendering:pixelated}
