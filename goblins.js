@@ -18,7 +18,7 @@
     status.textContent = loading ? `Loading ${action}…` : completed
       ? `${action} complete. Select an action to replay.`
       : `${action} ${paused ? 'paused.' : data.actions[action].loop ? 'playing · loops.' : 'playing · once.'}`;
-    canvas.setAttribute('aria-label', `Armored Shieldbearer ${action.toLowerCase()} preview`);
+    canvas.setAttribute('aria-label', `Goblin Raider ${action.toLowerCase()} preview`);
   }
 
   function draw() {
@@ -94,7 +94,7 @@
   motionPreference.addEventListener('change', event => {
     if (event.matches) { paused = true; previousTime = null; if (data) updateControls(); }
   });
-  fetch('assets/bestiary-pack-02/shieldbearer.json').then(response => {
+  fetch('assets/bestiary-pack-02/raider.json').then(response => {
     if (!response.ok) throw new Error('Preview unavailable');
     return response.json();
   }).then(async manifest => {
