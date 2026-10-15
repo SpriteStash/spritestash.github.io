@@ -5,7 +5,7 @@
 .goblins-cover-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5%;align-items:end}
 .goblins-cover-trio img{width:100%;height:clamp(100px,31vw,440px);object-fit:contain;object-position:center bottom;image-rendering:pixelated}
 
-.goblins-cover-trio img[src*='goblin-raider-']{transform:scale(.8);transform-origin:center bottom}
+.goblins-cover-trio img[src*='goblin-raider-']{transform:scale(.7);transform-origin:center bottom}
 
 .goblins-cover-trio img[src='assets/bestiary-pack-02/goblin-warlord.webp']{transform:translateX(15%)}
 
