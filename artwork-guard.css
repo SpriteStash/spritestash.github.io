@@ -3,3 +3,7 @@ main img, main canvas {
   -webkit-touch-callout: none;
   user-select: none;
 }
+
+/* Approved promotional artwork stays at native resolution. Smooth browser
+   downscaling preserves fine detail; animation sprites/canvases stay pixelated. */
+.monster-stage img,.crypta-cover img{image-rendering:auto}
